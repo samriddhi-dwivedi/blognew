@@ -1,0 +1,336 @@
+body{
+	background-color: #FDF5F4;
+	font-family: 'Roboto', sans-serif;
+}
+.contain{
+  background: url(palace.jpg) no-repeat center fixed;
+  /*background-repeat: no-repeat;*/
+  background-size: cover;
+  
+  
+}
+.display-5{
+	text-align: center;
+}
+.navbar-custom{
+	background: #EE6457;
+}
+.nav-link{
+  font-size: 1rem;
+}
+.btn{
+	background: #EE6457;
+}
+/*.jumbotron{
+	background: #F9C4BA;
+	border-radius: 48px;
+}*/
+/*.contain2{
+  background-image: url(building2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width:100%;
+  height: 50rem;
+}*/
+
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.display-4{
+	color:#EE6457;
+}
+/*h1{
+	 -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: #EE6457;
+}*/
+input{
+	background-color: #FDF5F4;
+}
+
+a{
+	color:#EE6457;
+}
+a:hover{
+	color:#F9C4BA;
+}
+section{
+	padding-bottom: 15vw;
+}
+a .btn{
+	background-color: white;
+}
+#contactus{
+  background-color:#F9C4BA;
+}
+.text{
+	 -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: #EE6457;
+}
+.text-fill{
+	color:#EE6457;
+}
+.card{
+	border-radius: 1.5rem;
+}
+.card-img-top{
+	border-radius: 1.5rem 1.5rem 0 0;
+}
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  background-color: #F9C4BA;
+  border: 0; /* Gray border */
+  border-bottom: 2px solid #EE6457;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  background-color: #F9C4BA;
+  border: 0; /* Gray border */
+  border-bottom: 2px solid #EE6457;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+./*container {
+  border-radius: 5px;
+  background-color: #F9C4BA;
+  padding: 20px;
+}*/
+input[type=submit] {
+  background-color: #EE6457;
+  color: white;
+  margin-top: 3rem;
+  padding: 5px 10px;
+  border:none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0.5px 0.5px #000;
+}
+
+@media screen and (max-width:1200px){
+    form{
+        padding-right: 50px;
+    }
+}
+.btn-google i{  
+    border-radius: 50%;
+    height:54px;
+    width:54px;
+    line-height: 54px;
+    background-color: #EE6457;
+    color: #fabf2c;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 1.6rem 0.8rem;
+}
+
+.grid-container {
+  margin: auto;
+  display: grid;
+  grid-gap: 1.1312rem;
+  grid-template-columns: repeat(auto-fit, 12.8rem);
+  grid-auto-rows: 12.8rem;
+  grid-auto-flow: dense;
+  -webkit-box-pack: center;
+          justify-content: center;
+  max-width: 75em;
+}
+
+.card {
+  grid-row: auto / span 1;
+  grid-column: auto / span 1;
+  background-color: white;
+  box-shadow: 1px 3px 3px rgba(0, 10, 20, 0.06);
+}
+.card h1, .card h2, .card h3, .card h4, .card p {
+  margin-top: 0;
+  font-weight: normal;
+}
+.card__image {
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+}
+.card__image img {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__side-by-side {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row nowrap;
+}
+.card__side-by-side--m {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-flow: column nowrap;
+}
+.card__side-by-side--m img {
+  min-height: auto;
+}
+.card__content {
+  padding: 1.6rem;
+}
+.card__button {
+  margin: 1.6rem 0;
+  text-align: center;
+  padding: 0.8rem 1.6rem;
+  background: none;
+  border: 0.5px solid #777;
+  border-radius: 2px;
+}
+.card__button:hover {
+  border-color: #d099a0;
+}
+.card--featured {
+  grid-row: auto / span 3;
+  grid-column: auto / span 2;
+}
+.card--2x {
+  grid-row: auto / span 2;
+  grid-column: auto / span 2;
+}
+.card--vertical {
+  grid-row: auto / span 2;
+}
+.card--horizontal {
+  grid-column: auto / span 2;
+}
+.card--frameless {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.padding-large {
+  padding: 3.2rem;
+}
+.padding-large--l {
+  padding: 1.6rem;
+}
+
+.big-script {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 4.3em;
+  line-height: 1.15em;
+  text-align: center;
+}
+.big-script p {
+  margin: 0;
+}
+
+@media (max-width: 413px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+  }
+
+  .cards {
+    min-height: 12.8rem;
+  }
+}
+@media (min-width: 627px) {
+  .grid-container {
+    grid-gap: 1.6rem;
+  }
+
+  .card__side-by-side--m {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-flow: row nowrap;
+  }
+  .card__side-by-side--m img {
+    min-height: 100%;
+  }
+  .card--featured {
+    grid-row: auto / span 2;
+    grid-column: 1 / -1;
+  }
+}
+@media (min-width: 836px) {
+  .padding-large--l {
+    padding: 3.2rem;
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sacramento");
+html {
+  font-size: 14.5px;
+}
+
+
+ /*#outer {
+   float: left;
+   width: 250px;
+   overflow: hidden;
+   white-space: nowrap;
+   display: inline-block;
+ }
+ 
+ #left-button {
+   float: left;
+   width: 30px;
+   text-align: center;
+ }
+ 
+ #right-button {
+   float: left;
+   width: 30px;
+   text-align: center;
+ }
+ 
+ a {
+   text-decoration: none;
+   font-weight: bolder;
+   color: red;
+ }
+ 
+ #inner:first-child {
+   margin-left: 0;
+ }
+ 
+ label {
+   margin-left: 10px;
+ }
+ 
+ .hide {
+   display: none;
+ }
+*/
